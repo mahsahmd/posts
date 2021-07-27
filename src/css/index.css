@@ -1,0 +1,75 @@
+/**** css reset***/
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/**** main component***/
+
+.main {
+  display: flex;
+  width: 100%;  
+  padding: 20px;
+}
+
+/**** users component***/
+.users {
+  margin-right: 30px;
+  background-color: #c4c4c4;
+  width: 30%;
+  padding: 10px;
+
+}
+/**** user component***/
+
+.user {
+  background-color: white;
+  padding: 15px 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border: 1px solid #a8a8a8;
+  width: 100%;
+  -webkit-box-shadow: 5px 5px 15px 5px #a8a8a8;
+  box-shadow: 5px 5px 15px 5px #a8a8a8;
+  text-align: left;
+}
+.user:focus {
+  background-color: #aaa3fe;
+}
+
+/**** posts component***/
+
+.posts {
+  width: 70%;
+  background-color: #c4c4c4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+/**** post component***/
+
+.post {
+  background-color: white;
+  margin-bottom: 10px;
+  width: 80%;
+  padding: 10px 30px;
+  text-align:left;
+  cursor: pointer;
+}
+
+.postText {
+  margin-left: 30px;
+}
+
+.postInfo {
+  background-color: white;
+  margin: 30px 0;
+  padding: 10px 70px;
+}
