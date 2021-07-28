@@ -73,3 +73,71 @@
   margin: 30px 0;
   padding: 10px 70px;
 }
+
+/** single post page***/
+.singlePostPage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.singlePostForm {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.postInput {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-bottom: 30px;
+}
+.singlePostForm #title,
+.singlePostForm #body {
+  width: 100%;
+  border: 0.7px solid #7f30f1;
+  padding: 15px 10px;
+  border-radius: 5px;
+}
+
+.singlePostForm label {
+  color: #7f30f1;
+  background-color: white;
+  width: 10%;
+  text-align: center;
+  margin-bottom: -8px;
+  margin-left: 30px;
+  z-index: 100;
+  text-transform: capitalize;
+}
+
+/** buttons ***/
+.formButtons {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.singlePostForm .cancel,
+.singlePostForm .save {
+  border-radius: 15px;
+  border: 1px solid #cbcbcb;
+  -webkit-box-shadow: 7px 6px 15px 1px #cbcbcb;
+  box-shadow: 7px 6px 15px 1px #cbcbcb;
+  padding: 8px 10px;
+  cursor: pointer;
+  background-color: white;
+  font-weight: 500;
+  width: 15%;
+}
+/** error **/
+.error {
+  color: #f13030;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 10px;
+}

@@ -3,7 +3,6 @@ import { Formik } from "formik";
 import * as yup from "yup";
 import { useEffect, useState } from "react";
 import { useHistory, useParams } from "react-router-dom";
-import "../css/singlePost.css";
 
 //*** validation schema
 const PostSchema = yup.object({

@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
-import "../css/index.css";
 import axios from "axios";
-import Posts from "./Posts";
-import Users from "./Users";
+import Posts from "./post/Posts";
+import Users from "./user/Users";
 
 const Main = () => {
   const [data, setData] = useState([]);
@@ -43,7 +42,6 @@ const Main = () => {
     <div className="main">
       <Users users={users} changeUser={changeUser} />
       <Posts posts={posts} user={user} />
-      {/* {posts.length > 0 ?  <Posts posts={posts} user={user} /> : null} */}
     </div>
   );
 };
